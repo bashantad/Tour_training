@@ -8,7 +8,7 @@ Tour::Application.routes.draw do
 
 
 
-  root :to => "destinations#index"
+  root :to => "home#index"
   
  
   

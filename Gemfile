@@ -7,6 +7,7 @@ gem 'devise'
 gem 'rmagick'
 # gem "rmagick", :require => 'RMagick'
 #gem "rmagick", "~> 1.15.17", :require => 'RMagick'
+gem "nifty-generators", :group => :development
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
@@ -21,6 +22,7 @@ group :test, :development do
   gem 'pry-doc'
  # gem 'ruby-debug19' ,:require =>'ruby-debug'
   #gem "ruby-debug-base19", "0.11.23", :require => nil
+  
 end
 
 group :test do

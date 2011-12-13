@@ -1,0 +1,18 @@
+<% content_for(:head) do %>
+  <meta name = "author" content = "Everyone">
+  <% end %>
+<h1>Destinations </h1>
+<div id = "destinations">
+  <ul>
+    <% @destinations.each do |dest| %>
+    <li><%= dest.title %></li>
+    <li><%= dest.description %></li>
+    <hr />
+    <% end %>
+    </ul>
+  </div>
+<% content_for(:foot) do %>
+  <p><strong>Copyright &copy; 2011 </strong></p>
+  <% end %>
+  
+  
